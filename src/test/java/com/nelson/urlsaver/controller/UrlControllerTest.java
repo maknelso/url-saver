@@ -17,6 +17,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
+@ActiveProfiles("test")
 @WebMvcTest(UrlController.class)
 public class UrlControllerTest {
 
