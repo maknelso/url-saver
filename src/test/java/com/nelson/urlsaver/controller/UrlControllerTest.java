@@ -30,6 +30,7 @@ public class UrlControllerTest {
 
     @Test
     public void testAddUrl() throws Exception {
+
         Url mockUrl = new Url();
         mockUrl.setId(1L);
         mockUrl.setOriginalUrl("https://google.com");
